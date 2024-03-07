@@ -15,6 +15,7 @@ pipeline {
 
     stage('deploy') {
       steps {
+        input(message: 'ask for Permition ', ok: 'Yes approved')
         echo 'Deployed'
       }
     }
