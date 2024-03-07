@@ -19,5 +19,11 @@ pipeline {
       }
     }
 
+    stage('NOtify') {
+      steps {
+        echo 'NOtifed '
+      }
+    }
+
   }
 }
